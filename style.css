@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Quicksand|Roboto&display=swap');
+
+body{
+  background-color: #F8F8F8;
+}
+
+#profile-pic {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.container{
+  width: 80%;
+  align-content: center;
+}
+
+.card-white {
+  width: 100%;
+  padding: 30px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 8px rgba(60,60,60,0.3542);
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: "Quicksand", Times, serif;
+  font-size: 80px;
+  font-weight: bold;
+  margin: 0px auto;
+  color: #3A4B54;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 3px auto;
+  colo: #9A9A9A;
+}
+
+p {
+  font-family: "Quicksand", Times, serif;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.btn-dig-blu {
+  background-color: #008BE8;
+  font-size: 20px;
+  font-family: "Advent", sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 12px;
+}
+
+.btn-dig-blu:hover {
+  background-color: #FF3E22;
+  border-radius: 12px;
+}
+
+h3{
+  font-family: "Quicksand", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px auto;
+  color: #FF3E22;
+}
+
+.fab {
+  font-size: 40px;
+    color: #008BE8;
+    margin: 10px;
+}
+
+.social-icon li{
+  display:inline-block;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
